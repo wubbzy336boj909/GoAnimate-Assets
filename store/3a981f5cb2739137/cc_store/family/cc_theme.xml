@@ -1423,7 +1423,7 @@
         </action>
         <action id="xarms" name="Crossed arms" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
-            <selection type="lower_body" state_id="default"/>
+            <selection type="lower_body" state_id="lie_down"/>
             <selection type="skeleton" state_id="crossed_arms"/>
             <selection type="upper_body" state_id="crossed_arms"/>
         </action>
@@ -1465,7 +1465,7 @@
         </action>
         <action id="taunt" name="Taunt" loop="Y" totalframe="60" enable="Y" category="emotion" is_motion="N">
             <selection type="facial" facial_id="head_angry"/>
-            <selection type="lower_body" state_id="default"/>
+            <selection type="lower_body" state_id="lie_down"/>
             <selection type="skeleton" state_id="taunt"/>
             <selection type="upper_body" state_id="taunt"/>
         </action>
