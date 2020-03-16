@@ -309,7 +309,7 @@
         <selection type="mustache" state_id="default"/>
         <selection type="nose" state_id="default"/>
     </facial>
-    <facial id="head_cry" name="Cry - Joy" enable="Y">
+    <facial id="head_cry" name="Cry with joy" enable="Y">
         <selection type="beard" state_id="default"/>
         <selection type="ear" state_id="default"/>
         <selection type="eye" state_id="cry"/>
@@ -332,6 +332,32 @@
         <selection type="glasses" state_id="default"/>
         <selection type="hair" state_id="default"/>
         <selection type="mouth" state_id="shock"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_jealous" name="Jealous" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="angry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_noticed" name="Noticed" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
         <selection type="mustache" state_id="default"/>
         <selection type="nose" state_id="default"/>
     </facial>
@@ -1019,6 +1045,17 @@
             <state id="walk" filename="walk.swf"/>
         </component>
         <component type="lower_body" id="adam_a012" path="adam_a012" name="adam_a012" thumb="thumbnail.swf" display_order="190" money="0" sharing="0" enable="Y">
+            <state id="dance" filename="dance.swf"/>
+            <state id="default" filename="default.swf"/>
+            <state id="excited" filename="excited.swf"/>
+            <state id="fearful" filename="fearful.swf"/>
+            <state id="kneel_down" filename="kneel_down.swf"/>
+            <state id="laugh" filename="laugh.swf"/>
+            <state id="run" filename="run.swf"/>
+            <state id="sit" filename="sit.swf"/>
+            <state id="walk" filename="walk.swf"/>
+        </component>
+        <component type="lower_body" id="rocky_001" path="rocky_001" name="rocky_001" thumb="thumbnail.swf" display_order="200" money="0" sharing="0" enable="Y">
             <state id="dance" filename="dance.swf"/>
             <state id="default" filename="default.swf"/>
             <state id="excited" filename="excited.swf"/>
