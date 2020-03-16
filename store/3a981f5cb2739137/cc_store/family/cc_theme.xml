@@ -351,8 +351,8 @@
     <facial id="head_worried" name="Worried" enable="Y">
         <selection type="beard" state_id="default"/>
         <selection type="ear" state_id="default"/>
-        <selection type="eye" state_id="shocked"/>
-        <selection type="eyebrow" state_id="shocked"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="shock"/>
         <selection type="facedecoration" state_id="default"/>
         <selection type="faceshape" state_id="default"/>
         <selection type="glasses" state_id="default"/>
