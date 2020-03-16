@@ -516,7 +516,7 @@
             <selection type="skeleton" state_id="excited"/>
             <selection type="upper_body" state_id="excited"/>
         </action>
-        <action id="xarms" name="Crossed arms - Sitting" loop="Y" totalframe="1" enable="Y" is_motion="N">
+        <action id="xarms2" name="Crossed arms - Sitting" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="sit"/>
             <selection type="skeleton" state_id="crossed_arms"/>
