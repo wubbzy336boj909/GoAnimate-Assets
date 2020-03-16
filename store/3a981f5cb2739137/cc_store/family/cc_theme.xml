@@ -459,7 +459,7 @@
   <component type="bodyshape" component_id="adam" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
   <component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
   <component type="upper_body" component_id="adam_005" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
-  <component type="lower_body" component_id="rocky_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
+  <component type="lower_body" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
   <component type="faceshape" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
   <component type="hair" component_id="008" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
   <component type="eyebrow" component_id="003" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
