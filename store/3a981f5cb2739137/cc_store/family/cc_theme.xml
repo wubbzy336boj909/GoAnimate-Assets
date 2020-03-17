@@ -270,6 +270,19 @@
         <selection type="mustache" state_id="default"/>
         <selection type="nose" state_id="default"/>
     </facial>
+    <facial id="head_furious" name="Furious" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="shock"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="angry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
     <facial id="head_neutral" name="Neutral" enable="Y">
         <selection type="beard" state_id="default"/>
         <selection type="ear" state_id="default"/>
@@ -1695,12 +1708,6 @@
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="talk"/>
             <selection type="upper_body" state_id="talk"/>
-        </action>
-        <action id="drive" name="Drive" loop="Y" totalframe="1" enable="Y" is_motion="N">
-            <selection type="facial" facial_id="head_neutral"/>
-            <selection type="lower_body" state_id="sit"/>
-            <selection type="skeleton" state_id="stand"/>
-            <selection type="upper_body" state_id="run"/>
         </action>
         <component type="lower_body" id="eve_001" path="eve_001" name="eve_001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
             <state id="dance" filename="dance.swf"/>
