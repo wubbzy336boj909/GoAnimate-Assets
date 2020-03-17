@@ -654,7 +654,7 @@
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="stand"/>
-            <selection type="upper_body" state_id="default"/>
+            <selection type="upper_body" state_id="walk"/>
         </action>
         <action id="stand2" name="Stand 2" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
@@ -674,11 +674,17 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="kneel_down"/>
         </action>
-        <action id="walk" name="Walk" loop="Y" totalframe="24" enable="Y" category="traveling" is_motion="Y">
+        <action id="walk" name="Walk 1" loop="Y" totalframe="24" enable="Y" category="traveling" is_motion="Y">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="walk"/>
             <selection type="skeleton" state_id="walk"/>
             <selection type="upper_body" state_id="walk"/>
+        </action>
+        <action id="walk2" name="Walk 2" loop="Y" totalframe="24" enable="Y" category="traveling" is_motion="Y">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="walk"/>
+            <selection type="skeleton" state_id="walk"/>
+            <selection type="upper_body" state_id="default"/>
         </action>
         <action id="run" name="Run 1" loop="Y" totalframe="20" enable="Y" category="traveling" is_motion="Y">
             <selection type="facial" facial_id="head_neutral"/>
@@ -687,6 +693,12 @@
             <selection type="upper_body" state_id="run"/>
         </action>
         <action id="run2" name="Run 2" loop="Y" totalframe="20" enable="Y" category="traveling" is_motion="Y">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="run"/>
+            <selection type="skeleton" state_id="run"/>
+            <selection type="upper_body" state_id="walk"/>
+        </action>
+        <action id="run3" name="Run 3" loop="Y" totalframe="20" enable="Y" category="traveling" is_motion="Y">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="run"/>
             <selection type="skeleton" state_id="run"/>
