@@ -692,6 +692,12 @@
             <selection type="skeleton" state_id="run"/>
             <selection type="upper_body" state_id="default"/>
         </action>
+        <action id="sprint" name="Sprint" loop="Y" totalframe="20" enable="Y" category="traveling" is_motion="Y">
+            <selection type="facial" facial_id="head_badass"/>
+            <selection type="lower_body" state_id="run"/>
+            <selection type="skeleton" state_id="run"/>
+            <selection type="upper_body" state_id="laugh"/>
+        </action>
         <action id="jog" name="Jog" loop="Y" totalframe="20" enable="Y" category="traveling" is_motion="Y">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="walk"/>
@@ -721,6 +727,12 @@
             <selection type="lower_body" state_id="kneel_down"/>
             <selection type="skeleton" state_id="kneel_down"/>
             <selection type="upper_body" state_id="kneel_down"/>
+        </action>
+        <action id="kneel" name="Kneel down - Talk on phone" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="kneel_down"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="talk_on_phone"/>
         </action>
         <action id="xarms" name="Crossed arms" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
@@ -794,8 +806,14 @@
             <selection type="skeleton" state_id="chuckle"/>
             <selection type="upper_body" state_id="point_at"/>
         </action>
-        <action id="grab" name="Grab" loop="Y" totalframe="60" enable="Y" category="fighting" is_motion="N">
+        <action id="grab2" name="Grab" loop="Y" totalframe="60" enable="Y" category="fighting" is_motion="N">
             <selection type="facial" facial_id="head_angry"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="laugh"/>
+            <selection type="upper_body" state_id="laugh"/>
+        </action>
+        <action id="grab" name="Grab" loop="Y" totalframe="60" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="laugh"/>
             <selection type="upper_body" state_id="laugh"/>
@@ -803,6 +821,12 @@
         <action id="chuckle" name="Chuckle" loop="Y" totalframe="6" enable="Y" category="emotion" is_motion="N">
             <selection type="facial" facial_id="head_happy"/>
             <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="chuckle"/>
+            <selection type="upper_body" state_id="chuckle"/>
+        </action>
+        <action id="sitchuckle" name="Sit - Chuckle" loop="Y" totalframe="6" enable="Y" category="emotion" is_motion="N">
+            <selection type="facial" facial_id="head_happy"/>
+            <selection type="lower_body" state_id="sit"/>
             <selection type="skeleton" state_id="chuckle"/>
             <selection type="upper_body" state_id="chuckle"/>
         </action>
