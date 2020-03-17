@@ -681,7 +681,7 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="default"/>
         </action>
-        <action id="driving" name="Driving" loop="Y" totalframe="100" enable="Y" is_motion="N">
+        <action id="driving" name="Driving" loop="N" totalframe="100" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="sit"/>
             <selection type="skeleton" state_id="stand"/>
