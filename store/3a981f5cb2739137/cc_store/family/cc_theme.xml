@@ -2544,12 +2544,6 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="sit"/>
         </action>
-        <action id="stand4" name="Stand 4" loop="Y" totalframe="1" enable="Y" is_motion="N">
-            <selection type="facial" facial_id="head_neutral"/>
-            <selection type="lower_body" state_id="default"/>
-            <selection type="skeleton" state_id="stand"/>
-            <selection type="upper_body" state_id="kneel_down"/>
-        </action>
         <action id="walk" name="Walk 1" loop="Y" totalframe="24" enable="Y" category="traveling" is_motion="Y">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="walk"/>
@@ -2712,9 +2706,9 @@
             <selection type="skeleton" state_id="point_at"/>
             <selection type="upper_body" state_id="point_at"/>
         </action>
-        <action id="laugh" name="Laugh" loop="Y" totalframe="6" enable="Y" category="emotion" is_motion="N">
+        <action id="laugh" name="Laugh" loop="Y" totalframe="8" enable="Y" category="emotion" is_motion="N">
             <selection type="facial" facial_id="head_laugh"/>
-            <selection type="lower_body" state_id="laugh"/>
+            <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="laugh"/>
             <selection type="upper_body" state_id="laugh"/>
         </action>
