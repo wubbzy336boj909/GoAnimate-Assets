@@ -661,7 +661,7 @@
   <component type="nose" component_id="004" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
   <component type="eye" component_id="205" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
   <component type="ear" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
-  <component type="mouth" component_id="009" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
+  <component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
         </default_char>
         <action id="stand" name="Stand 1" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
