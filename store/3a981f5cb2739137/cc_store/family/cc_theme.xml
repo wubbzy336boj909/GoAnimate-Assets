@@ -634,7 +634,7 @@
         <selection type="mustache" state_id="default"/>
         <selection type="nose" state_id="default"/>
     </facial>
-    <bodyshape id="adam" name="Adam" default_action="stand" default_motion="walk" action_thumb="stand3" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="male">
+    <bodyshape id="adam" name="Adam" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="male">
         <default_char>
   <color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color>
   <color r="ccEyeLib">0xFFCE95</color>
@@ -1667,7 +1667,7 @@
             <state id="walk" filename="walk.swf"/>
         </component>
     </bodyshape>
-    <bodyshape id="eve" name="Eve" default_action="stand" default_motion="walk" action_thumb="stand3" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="female">
+    <bodyshape id="eve" name="Eve" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="female">
         <default_char>
   <color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color>
   <color r="ccEyeLib">0x4B0156</color>
@@ -1698,7 +1698,7 @@
         </default_char>
         <action id="stand" name="Stand 1" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
-            <selection type="lower_body" state_id="default"/>
+            <selection type="lower_body" state_id="lie_down"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="default"/>
         </action>
@@ -1706,15 +1706,21 @@
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="stand"/>
-            <selection type="upper_body" state_id="lie_down"/>
+            <selection type="upper_body" state_id="default"/>
         </action>
         <action id="stand3" name="Stand 3" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="stand"/>
-            <selection type="upper_body" state_id="sit"/>
+            <selection type="upper_body" state_id="lie_down"/>
         </action>
         <action id="stand4" name="Stand 4" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="sit"/>
+        </action>
+        <action id="stand5" name="Stand 5" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="lie_down"/>
             <selection type="skeleton" state_id="stand"/>
