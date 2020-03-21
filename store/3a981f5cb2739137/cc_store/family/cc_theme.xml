@@ -813,6 +813,18 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="default"/>
         </action>
+        <action id="sit3" name="Sit 2" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="sit"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="walk"/>
+        </action>
+        <action id="pointtest" name="Point test" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="laugh"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>
         <action id="xarms3" name="Walk - Crossed arms" loop="Y" totalframe="24" enable="Y" category="traveling" is_motion="Y">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="walk"/>
@@ -1786,6 +1798,18 @@
             <selection type="skeleton" state_id="crossed_arms"/>
             <selection type="upper_body" state_id="crossed_arms"/>
         </action>
+        <action id="xarmsxx" name="Bend over - Crossed arms" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="chuckle"/>
+            <selection type="upper_body" state_id="crossed_arms"/>
+        </action>
+        <action id="useitem" name="Use item" loop="Y" totalframe="1" enable="Y" category="fighting" is_motion="N">
+            <selection type="facial" facial_id="head_angry"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="chuckle"/>
+            <selection type="upper_body" state_id="taunt"/>
+        </action>
         <action id="excited" name="Excited / Cheers" loop="Y" totalframe="80" enable="Y" category="emotion" is_motion="N">
             <selection type="facial" facial_id="head_happy"/>
             <selection type="lower_body" state_id="excited"/>
@@ -1810,11 +1834,17 @@
             <selection type="skeleton" state_id="crossed_arms"/>
             <selection type="upper_body" state_id="crossed_arms"/>
         </action>
-        <action id="makefunof" name="Make fun of" loop="Y" totalframe="60" enable="Y" category="emotion" is_motion="N">
+        <action id="makefunof" name="Make fun of" loop="Y" totalframe="60" enable="Y" category="fighting" is_motion="N">
             <selection type="facial" facial_id="head_cachinnate"/>
             <selection type="lower_body" state_id="laugh"/>
             <selection type="skeleton" state_id="chuckle"/>
             <selection type="upper_body" state_id="point_at"/>
+        </action>
+        <action id="bendover" name="Bend over" loop="Y" totalframe="60" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="chuckle"/>
+            <selection type="upper_body" state_id="default"/>
         </action>
         <action id="twitch" name="Twitch legs" loop="Y" totalframe="80" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
